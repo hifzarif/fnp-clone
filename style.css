@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(214, 208, 209);
+}
+.topnav{
+    height: 27px;
+    background-color: rgb(101, 103, 43);
+    text-align: end;
+    color: #ffffff;
+    font-size: smaller;
+    padding-right: 1.5%;
+    padding-top: 0.2%;
+}
+
+.mainnav{
+    height: 105px;
+    background-color: rgb(125,128,53);
+}
+.navlogo{
+    width: 120px;
+    height: 1%;
+    padding-left: 15px;
+    left: 50px;
+
+}
+.navlogo img{
+    width: 100%;
+}
+
+.searchbar {
+        display:inline-flex;
+        width: 350px;
+        position: absolute;
+        left: 180px;
+        top: 55px;
+         
+        border-radius: 5px;
+        height: 50px;   
+}
+
+.searchicon{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar input{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+
+ 
+
+.locationicon{
+    display: flex;
+}
+.select{
+    background-color: rgb(255, 255, 255);
+    height:47px ;
+    width: 180px;
+    border-radius: 5px;
+    position: relative;
+    font-size: 85%;
+    font-weight:bold;
+    color: #504e4e;
+    left: 560px;
+    top: 28px;
+    text-align:center;
+    line-height: 350%;
+    
+}
+.select:hover{
+    box-shadow: 2px 3px 10px rgba(0,0,0,.5);
+}
+
+
+.cartlogo{
+    position: absolute;
+    left: 1300px;
+    top: 49px;
+    text-align: center;
+    font-size: smaller;
+    color: rgb(209, 205, 205);
+    font-weight: bold;
+}
+
+.user{
+    position: absolute;
+    left: 1370px;
+    top: 49px;
+    text-align: center;
+    font-size: smaller;
+    color: rgb(209, 205, 205);
+    font-weight: bolder;
+}
+
+.checknav{
+    height: 40px;
+    background-color: rgb(243, 242, 242);
+    box-shadow: 2px 3px 10px rgba(0,0,0,.5);
+}
+.rakhi{
+    position: absolute;
+    left: 45px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.rakhi :hover{
+    background-color: rgb(255, 255, 255);
+}
+.birthday{
+    position: absolute;
+    left: 120px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);   
+}
+.birthday:hover{
+    background-color: rgb(255, 255, 255);
+}
+.anniversary{
+    position: absolute;
+    left: 220px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.anniversary:hover{
+    background-color: rgb(255, 255, 255);
+}
+.cakes{
+    position: absolute;
+    left: 340px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.cakes:hover{
+    background-color: rgb(255, 255, 255);
+}
+.personalised{
+    position: absolute;
+    left: 530px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.personalised:hover{
+    background-color: rgb(255, 255, 255);
+}
+.flowers{
+    position: absolute;
+    left: 425px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.flowers:hover{
+    background-color: rgb(255, 255, 255);
+}
+.plants{
+    position: absolute;
+    left: 660px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.plants:hover{
+    background-color: rgb(255, 255, 255);
+}
+.chocolates{
+    position: absolute;
+    left: 750px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.chocolates:hover{
+    background-color: rgb(255, 255, 255);
+}
+.combos{
+    position: absolute;
+    left: 875px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.lifestyle{
+    position: absolute;
+    left: 975px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.occasions{
+    position: absolute;
+    left: 1075px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.global{
+    position: absolute;
+    left: 1180px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.ontrend{
+    position: absolute;
+    left: 1280px;
+    height: 40px;
+    padding-top: 10px;
+    font-size:small;
+    font-weight: bold;
+    background-color: rgb(243, 242, 242);
+
+}
+.img1{
+    position: absolute;
+    left: 20px;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353434;
+}
+.img2{
+    position: absolute;
+    left: 250px;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353434;
+}
+.img3{
+    position: absolute;
+    left: 470px;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353434;
+}
+.img4{
+    position: absolute;
+    left: 690px;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353434;
+}
+.img5{
+    position: absolute;
+    left: 900px;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353434;
+}
+.img6{
+    position: absolute;
+    left: 1110px;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353434; 
+}
+.img7{
+    position: absolute;
+    left: 1320px;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353434;
+}
